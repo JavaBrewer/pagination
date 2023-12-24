@@ -1,0 +1,50 @@
+/* 전체 페이지의 기본 스타일 설정 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* 컨텐츠 영역 스타일 설정 */
+.content {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* 리스트 스타일 설정 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 리스트 아이템 스타일 설정 */
+li {
+  border: 1px solid #ddd;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* 페이지네이션 영역 스타일 설정 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* 페이지 버튼 스타일 설정 */
+.pagination button {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+/* 페이지 버튼 호버링 시 스타일 설정 */
+.pagination button:hover {
+  background-color: #45a049;
+  /* 다른 스타일도 추가할 수 있습니다. */
+}
